@@ -1,6 +1,6 @@
 <?php
 /**
- * The "Leads" inbox: a private post type, list columns, a details box and a status field.
+ * The "Inquiries" inbox: a private post type, list columns, a details box and a status field.
  *
  * @package RowanfieldLeads
  */
@@ -14,8 +14,8 @@ add_action(
 			'npl_lead',
 			array(
 				'labels'          => array(
-					'name'          => __( 'Leads', 'rowanfield-leads' ),
-					'singular_name' => __( 'Lead', 'rowanfield-leads' ),
+					'name'          => __( 'Inquiries', 'rowanfield-leads' ),
+					'singular_name' => __( 'Inquiry', 'rowanfield-leads' ),
 					'edit_item'     => __( 'Lead details', 'rowanfield-leads' ),
 					'search_items'  => __( 'Search leads', 'rowanfield-leads' ),
 					'not_found'     => __( 'No leads yet. Submit the quote form to see one here.', 'rowanfield-leads' ),
@@ -29,7 +29,7 @@ add_action(
 				'supports'        => array( 'title' ),
 				// Own permissions, so only Administrators and Editors see leads (not Authors or Contributors).
 				'capability_type' => array( 'npl_lead', 'npl_leads' ),
-				'capabilities'    => array( 'create_posts' => 'do_not_allow' ), // Leads only come from the form.
+				'capabilities'    => array( 'create_posts' => 'do_not_allow' ), // Inquiries only come from the form.
 				'map_meta_cap'    => true,
 			)
 		);
@@ -60,7 +60,7 @@ add_action(
 );
 
 /**
- * Columns on the Leads list.
+ * Columns on the Inquiries list.
  */
 add_filter(
 	'manage_npl_lead_posts_columns',
