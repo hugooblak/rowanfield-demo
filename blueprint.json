@@ -58,6 +58,10 @@
 			}
 		},
 		{
+			"step": "mkdir",
+			"path": "/wordpress/wp-content/rowanfield-setup"
+		},
+		{
 			"step": "writeFile",
 			"path": "/wordpress/wp-content/rowanfield-setup/setup.php",
 			"data": {
