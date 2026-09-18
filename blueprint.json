@@ -1,0 +1,73 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Rowanfield: services site with a multi-step inquiry form",
+		"description": "Block theme with a homepage, three service pages and a multi-step inquiry form with a lead inbox, for a fictional commercial pollination business.",
+		"author": "hugooblak",
+		"categories": [
+			"Themes"
+		]
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"features": {
+		"networking": true
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "git:directory",
+				"url": "https://github.com/hugooblak/rowanfield-demo",
+				"ref": "main",
+				"refType": "branch",
+				"path": "theme/rowanfield"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/hugooblak/rowanfield-demo",
+				"ref": "main",
+				"refType": "branch",
+				"path": "plugins/rowanfield-leads"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/hugooblak/rowanfield-demo",
+				"ref": "main",
+				"refType": "branch",
+				"path": "plugins/rowanfield-demo-notes"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "writeFile",
+			"path": "/wordpress/wp-content/rowanfield-setup/setup.php",
+			"data": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/hugooblak/rowanfield-demo/main/content/setup.php"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/wp-load.php'; require '/wordpress/wp-content/rowanfield-setup/setup.php';"
+		}
+	]
+}

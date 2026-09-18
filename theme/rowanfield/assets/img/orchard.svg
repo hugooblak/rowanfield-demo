@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="ot"><title id="ot">Illustration of beehives at the edge of an orchard in bloom</title>
+<rect width="560" height="400" rx="22" fill="#E2F0E6"/>
+<circle cx="466" cy="86" r="38" fill="#EFA818"/>
+<path d="M0 322c92-26 172-24 280-8s200 12 280-10v96H0z" fill="#CFE2DA"/>
+<g stroke="#2C6E49" stroke-width="6" fill="none" stroke-linecap="round">
+  <path d="M96 302v-46M412 300v-40M502 304v-32"/>
+</g>
+<circle cx="96" cy="212" r="50" fill="#FFFFFF" stroke="#2C6E49" stroke-width="6"/>
+<circle cx="412" cy="228" r="42" fill="#FFFFFF" stroke="#2C6E49" stroke-width="6"/>
+<circle cx="502" cy="248" r="32" fill="#FFFFFF" stroke="#2C6E49" stroke-width="6"/>
+<g fill="#EFA818">
+  <circle cx="80" cy="198" r="7"/><circle cx="112" cy="216" r="7"/><circle cx="94" cy="236" r="7"/>
+  <circle cx="400" cy="218" r="6"/><circle cx="426" cy="240" r="6"/>
+  <circle cx="494" cy="240" r="5"/><circle cx="512" cy="258" r="5"/>
+</g>
+<g stroke="#17281C" stroke-width="6" stroke-linejoin="round">
+  <rect x="196" y="256" width="124" height="42" rx="6" fill="#FFFFFF"/>
+  <rect x="206" y="214" width="104" height="42" rx="6" fill="#FFFFFF"/>
+  <rect x="216" y="176" width="84" height="38" rx="6" fill="#FFFFFF"/>
+</g>
+<path d="M219 176h78" stroke="#B45309" stroke-width="12" stroke-linecap="round"/>
+<rect x="238" y="276" width="40" height="8" rx="4" fill="#17281C"/>
+<path d="M232 240h56M232 200h44" stroke="#CFE2DA" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#17281C" stroke-width="3" stroke-linecap="round">
+  <g transform="translate(352,118)">
+    <ellipse cx="0" cy="0" rx="7" ry="4.6" fill="#EFA818"/>
+    <path d="M-3.5-4.6C-7-10-13-8-10-3.6M3.5-4.6C7-10 13-8 10-3.6" fill="none"/>
+  </g>
+  <g transform="translate(392,160) rotate(14)">
+    <ellipse cx="0" cy="0" rx="5.5" ry="3.6" fill="#EFA818"/>
+    <path d="M-2.8-3.6C-5.6-8-10.4-6.4-8-2.8M2.8-3.6C5.6-8 10.4-6.4 8-2.8" fill="none"/>
+  </g>
+</g>
+</svg>

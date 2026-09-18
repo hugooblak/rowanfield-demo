@@ -1,0 +1,40 @@
+{
+  "name": "Rowanfield",
+  "slug": "rowanfield",
+  "prefix": "rf",
+  "github_user": "hugooblak",
+  "github_repo": "rowanfield-demo",
+  "playground_url": "https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/hugooblak/rowanfield-demo/main/blueprint.json",
+  "platform": "wordpress",
+  "industry": "Agriculture / commercial beekeeping and pollination services",
+  "site_type": "Services marketing site: homepage redesign, three service pages, inquiry funnel",
+  "features": [
+    "homepage redesign",
+    "three service pages",
+    "multi-step inquiry form",
+    "inquiries inbox with status + CSV export",
+    "UTM / click-ID source tracking",
+    "dataLayer conversion events",
+    "focus landing page (no menu)",
+    "reviews + trust strip",
+    "price guide table",
+    "FAQ",
+    "privacy export/erase",
+    "reusable block patterns",
+    "editor notes explaining each section"
+  ],
+  "upwork_job_id": "2100927690549077720",
+  "pages": [
+    "/",
+    "/orchard-pollination/",
+    "/hive-management/",
+    "/field-reports/",
+    "/inquiry/",
+    "/about/",
+    "/faq/",
+    "/privacy-policy/",
+    "/nope/"
+  ],
+  "plugins_from_wporg": [],
+  "copied_from": "northpine"
+}
